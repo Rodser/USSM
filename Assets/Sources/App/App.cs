@@ -5,7 +5,7 @@ namespace Game.App
 {
     public class App : MonoBehaviour
     {
-        private ISceneStateMashineService _sceneService;
+        private ISceneStateMachineService _sceneService;
 
         private void Awake()
         {
@@ -19,7 +19,7 @@ namespace Game.App
             _sceneService.Update();
         }
 
-        public void Construct(ISceneStateMashineService sceneService)
+        public void Construct(ISceneStateMachineService sceneService)
         {
             _sceneService = sceneService;
         }

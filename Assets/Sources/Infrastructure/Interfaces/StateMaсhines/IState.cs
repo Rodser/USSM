@@ -1,5 +1,5 @@
 ﻿
-namespace Game.Infrastructure.Interfaces.StateMashines
+namespace Game.Infrastructure.Interfaces.StateMaсhines
 {
     public interface IState 
     { 

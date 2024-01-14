@@ -1,7 +1,7 @@
 ﻿
-namespace Game.Infrastructure.Interfaces.StateMashines
+namespace Game.Infrastructure.Interfaces.StateMaсhines
 {
-    public interface IStateMashine
+    public interface IStateMachine
     {
         object CurrentState { get; }
         void ChangeState(IState state);

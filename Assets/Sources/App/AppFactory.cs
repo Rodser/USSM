@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Game.Infrastructure.Implementation;
 using Game.Infrastructure.Implementation.Scenes;
+using Game.Infrastructure.Implementation.StateMachines;
 using Game.Infrastructure.Interfaces.Factories.Scenes;
 using UnityEngine;
 
@@ -13,14 +14,14 @@ namespace Game.App
         {
             var app = CreateApp();
 
-            var stateMashine = new StateMashineCore();
+            var stateMashine = new StateMachineCore();
             
             var sceneFactories = new Dictionary<Type, ISceneFactory>()
             {
                 
             };
 
-            var sceneService = new SceneStateMashineService(stateMashine, sceneFactories);
+            var sceneService = new SceneStateMachineService(stateMashine, sceneFactories);
             app.Construct(sceneService);
             
             return app;

@@ -1,22 +1,23 @@
 using System;
 using System.Collections.Generic;
+using Game.Infrastructure.Implementation.StateMachines;
 using Game.Infrastructure.Interfaces.Factories.Scenes;
 using Game.Infrastructure.Interfaces.Services.Scenes;
-using Game.Infrastructure.Interfaces.StateMashines;
+using Game.Infrastructure.Interfaces.StateMaсhines;
 
 namespace Game.Infrastructure.Implementation.Scenes
 {
-    public class SceneStateMashineService : ISceneStateMashineService
+    public class SceneStateMachineService : ISceneStateMachineService
     {
-        private readonly IStateMashine _stateMashine;
+        private readonly IStateMachine _stateMachine;
         private readonly IReadOnlyDictionary<Type, ISceneFactory> _sceneFactories;
-        private readonly UpdatableStateMashine _updatableStateMashine;
+        private readonly UpdatableStateMachine _updatableStateMachine;
 
-        public SceneStateMashineService(IStateMashine stateMashine, IReadOnlyDictionary<Type, ISceneFactory> sceneFactories)
+        public SceneStateMachineService(IStateMachine stateMachine, IReadOnlyDictionary<Type, ISceneFactory> sceneFactories)
         {
-            _stateMashine = stateMashine;
+            _stateMachine = stateMachine;
             _sceneFactories = sceneFactories;
-            _updatableStateMashine = new UpdatableStateMashine(stateMashine);
+            _updatableStateMachine = new UpdatableStateMachine(stateMachine);
         }
         
         public void ChangeScene<T>() where T : IScene
@@ -25,12 +26,12 @@ namespace Game.Infrastructure.Implementation.Scenes
                 throw new InvalidOperationException();
             
             IState state = factory.Create();
-            _stateMashine.ChangeState(state);
+            _stateMachine.ChangeState(state);
         }
         
         public void Update()
         {
-            _updatableStateMashine.Update();
+            _updatableStateMachine.Update();
         }
     }
 }

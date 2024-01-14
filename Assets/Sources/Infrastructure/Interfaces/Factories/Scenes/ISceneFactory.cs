@@ -1,4 +1,4 @@
-using Game.Infrastructure.Interfaces.StateMashines;
+using Game.Infrastructure.Interfaces.StateMaсhines;
 
 namespace Game.Infrastructure.Interfaces.Factories.Scenes
 {

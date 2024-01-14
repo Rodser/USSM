@@ -17,11 +17,11 @@
           <e p="Infrastructure" t="Include">
             <e p="Implementation" t="Include">
               <e p="Scenes" t="Include">
-                <e p="SceneStateMashineService.cs" t="Include" />
+                <e p="SceneStateMachineService.cs" t="Include" />
               </e>
-              <e p="StateMashines" t="Include">
-                <e p="StateMashineCore.cs" t="Include" />
-                <e p="UpdatableStateMashine.cs" t="Include" />
+              <e p="StateMachines" t="Include">
+                <e p="StateMachineCore.cs" t="Include" />
+                <e p="UpdatableStateMachine.cs" t="Include" />
               </e>
             </e>
             <e p="Interfaces" t="Include">
@@ -35,12 +35,12 @@
                 <e p="Scenes" t="Include">
                   <e p="IScene.cs" t="Include" />
                   <e p="ISceneChanger.cs" t="Include" />
-                  <e p="ISceneStateMashineService.cs" t="Include" />
+                  <e p="ISceneStateMachineService.cs" t="Include" />
                 </e>
               </e>
-              <e p="StateMashines" t="Include">
+              <e p="StateMaсhines" t="Include">
                 <e p="IState.cs" t="Include" />
-                <e p="IStateMashine.cs" t="Include" />
+                <e p="IStateMachine.cs" t="Include" />
               </e>
             </e>
           </e>

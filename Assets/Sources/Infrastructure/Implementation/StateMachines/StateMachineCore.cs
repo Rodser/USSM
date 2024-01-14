@@ -1,8 +1,8 @@
-using Game.Infrastructure.Interfaces.StateMashines;
+using Game.Infrastructure.Interfaces.StateMaсhines;
 
-namespace Game.Infrastructure.Implementation
+namespace Game.Infrastructure.Implementation.StateMachines
 {
-    public class StateMashineCore : IStateMashine
+    public class StateMachineCore : IStateMachine
     {
         public object CurrentState { get; private set; }
 
