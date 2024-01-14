@@ -16,12 +16,27 @@
           <e p="Game.asmdef" t="Include" />
           <e p="Infrastructure" t="Include">
             <e p="Implementation" t="Include">
-              <e p="StateMashineCore.cs" t="Include" />
-              <e p="UpdatableStateMashine.cs" t="Include" />
+              <e p="Scenes" t="Include">
+                <e p="SceneStateMashineService.cs" t="Include" />
+              </e>
+              <e p="StateMashines" t="Include">
+                <e p="StateMashineCore.cs" t="Include" />
+                <e p="UpdatableStateMashine.cs" t="Include" />
+              </e>
             </e>
             <e p="Interfaces" t="Include">
+              <e p="Factories" t="Include">
+                <e p="Scenes" t="Include">
+                  <e p="ISceneFactory.cs" t="Include" />
+                </e>
+              </e>
               <e p="Services" t="Include">
                 <e p="IUpdatable.cs" t="Include" />
+                <e p="Scenes" t="Include">
+                  <e p="IScene.cs" t="Include" />
+                  <e p="ISceneChanger.cs" t="Include" />
+                  <e p="ISceneStateMashineService.cs" t="Include" />
+                </e>
               </e>
               <e p="StateMashines" t="Include">
                 <e p="IState.cs" t="Include" />

@@ -12,15 +12,22 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Sources/App/App.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Game.asmdef" />
-      <option value="$PROJECT_DIR$/Assets/Sources/App/AppFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/App/Entrypoint/Bootstrapper.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMashine.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/IUpdatable.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/StateMashines/IStateMashine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMashineCore.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/UpdatableStateMashine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMashineCore.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/IScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/ISceneStateMashine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/ISceneChanger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/ISceneStateMashineService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Factoryes/Scenes/ISceneFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Factories/Scenes/ISceneFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Scenes/SceneStateMashineService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/App/AppFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/App/App.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2awfgCKjhztl5eSD84t7nUApRXe" />
@@ -63,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705234680394</updated>
-      <workItem from="1705234703178" duration="2300000" />
+      <workItem from="1705234703178" duration="2753000" />
+      <workItem from="1705247475901" duration="3265000" />
     </task>
     <servers />
   </component>

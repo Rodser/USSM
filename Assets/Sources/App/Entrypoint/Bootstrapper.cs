@@ -7,7 +7,7 @@ namespace Game.App.Entrypoint
     {
         private void Awake()
         {
-            if (FindObjectOfType<App>() == null)
+            if (FindFirstObjectByType<App>() == null)
             {
                 new AppFactory().Create();
             }

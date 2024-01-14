@@ -1,4 +1,8 @@
-﻿using Game.Infrastructure.Implementation;
+﻿using System;
+using System.Collections.Generic;
+using Game.Infrastructure.Implementation;
+using Game.Infrastructure.Implementation.Scenes;
+using Game.Infrastructure.Interfaces.Factories.Scenes;
 using UnityEngine;
 
 namespace Game.App
@@ -10,6 +14,14 @@ namespace Game.App
             var app = CreateApp();
 
             var stateMashine = new StateMashineCore();
+            
+            var sceneFactories = new Dictionary<Type, ISceneFactory>()
+            {
+                
+            };
+
+            var sceneService = new SceneStateMashineService(stateMashine, sceneFactories);
+            app.Construct(sceneService);
             
             return app;
         }
