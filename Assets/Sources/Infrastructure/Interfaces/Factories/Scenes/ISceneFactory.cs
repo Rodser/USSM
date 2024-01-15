@@ -1,9 +1,9 @@
-using Game.Infrastructure.Interfaces.StateMaсhines;
+using Game.Infrastructure.Interfaces.Services.Scenes;
 
 namespace Game.Infrastructure.Interfaces.Factories.Scenes
 {
     public interface ISceneFactory
     {
-        IState Create();
+        IScene Create(ISceneChanger sceneChanger);
     }
 }

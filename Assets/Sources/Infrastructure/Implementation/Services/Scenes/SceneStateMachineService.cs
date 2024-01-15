@@ -5,7 +5,7 @@ using Game.Infrastructure.Interfaces.Factories.Scenes;
 using Game.Infrastructure.Interfaces.Services.Scenes;
 using Game.Infrastructure.Interfaces.StateMaсhines;
 
-namespace Game.Infrastructure.Implementation.Scenes
+namespace Game.Infrastructure.Implementation.Services.Scenes
 {
     public class SceneStateMachineService : ISceneStateMachineService
     {
@@ -25,7 +25,7 @@ namespace Game.Infrastructure.Implementation.Scenes
             if (_sceneFactories.TryGetValue(typeof(T), out ISceneFactory factory) == false)
                 throw new InvalidOperationException();
             
-            IState state = factory.Create();
+            IState state = factory.Create(this);
             _stateMachine.ChangeState(state);
         }
         

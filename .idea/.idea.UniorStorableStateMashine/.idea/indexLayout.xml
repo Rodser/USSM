@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Assets/Plugins/UniTask</Path>
       <Path>Library/PackageCache/com.unity.burst@1.8.11</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@2.2.0</Path>
       <Path>Library/PackageCache/com.unity.collections@1.4.0</Path>
