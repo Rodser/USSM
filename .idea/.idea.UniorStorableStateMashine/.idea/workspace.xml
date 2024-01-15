@@ -46,6 +46,16 @@
       <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/GameMenuScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/App/App.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMachines/StateMachineCore.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Domain/Vector2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Exentions/Vector2/Vector2Extention.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Exentions/Vector2/Vector2ToVector2Data.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Domain/Vector2Data.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Exentions/Vector2/Vector2DataToVector2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Extentions/Vector2/Vector2DataToVector2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Extentions/Vector2/Vector2ToVector2Data.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Domain/Airplane.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Airplanes/AirplanPresentation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Interfaces/IAirplanView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2awfgCKjhztl5eSD84t7nUApRXe" />
@@ -90,7 +100,7 @@
       <updated>1705234680394</updated>
       <workItem from="1705234703178" duration="2753000" />
       <workItem from="1705247475901" duration="4200000" />
-      <workItem from="1705311923954" duration="12788000" />
+      <workItem from="1705311923954" duration="16426000" />
     </task>
     <servers />
   </component>

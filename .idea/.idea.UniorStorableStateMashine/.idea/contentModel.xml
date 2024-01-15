@@ -201,9 +201,22 @@
             </e>
           </e>
           <e p="Controllers" t="Include">
+            <e p="Airplanes" t="Include">
+              <e p="AirplanPresentor.cs" t="Include" />
+            </e>
             <e p="Scenes" t="Include">
               <e p="BaseScene.cs" t="Include" />
               <e p="GameMenuScene.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Domain" t="Include">
+            <e p="Airplane.cs" t="Include" />
+            <e p="Vector2Data.cs" t="Include" />
+          </e>
+          <e p="Extentions" t="Include">
+            <e p="Vector2" t="Include">
+              <e p="Vector2DataToVector2.cs" t="Include" />
+              <e p="Vector2ToVector2Data.cs" t="Include" />
             </e>
           </e>
           <e p="Game.asmdef" t="Include" />
@@ -247,6 +260,11 @@
             </e>
           </e>
           <e p="Log.cs" t="Include" />
+          <e p="Presentation" t="Include">
+            <e p="Interfaces" t="Include">
+              <e p="IAirplanView.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="Game.csproj" t="IncludeRecursive" />
