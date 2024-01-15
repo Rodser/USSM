@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using Game.Infrastructure.Interfaces.Services.Scenes;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Game.Infrastructure.Implementation.Services.Scenes
@@ -8,7 +9,7 @@ namespace Game.Infrastructure.Implementation.Services.Scenes
     {
         public async UniTask LoadSceneAsync(string nameScene)
         {
-            await SceneManager.LoadSceneAsync(nameScene).ToUniTask();
+            await SceneManager.LoadSceneAsync(nameScene);
         }
     }
 }

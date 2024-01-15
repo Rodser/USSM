@@ -1,6 +1,6 @@
 {
     "name": "UniTask",
-    "rootNamespace": "",
+    "rootNamespace": "Cysharp",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

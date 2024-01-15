@@ -99,6 +99,7 @@
                 <e p="Last.cs" t="Include" />
                 <e p="LongCount.cs" t="Include" />
                 <e p="Max.cs" t="Include" />
+                <e p="Merge.cs" t="Include" />
                 <e p="Min.cs" t="Include" />
                 <e p="MinMax.cs" t="Include" />
                 <e p="Never.cs" t="Include" />
@@ -185,6 +186,7 @@
               <e p="UnityAsyncExtensions.Jobs.cs" t="Include" />
               <e p="UnityAsyncExtensions.MonoBehaviour.cs" t="Include" />
               <e p="UnityAsyncExtensions.uGUI.cs" t="Include" />
+              <e p="UnityAwaitableExtensions.cs" t="Include" />
               <e p="UnityBindingExtensions.cs" t="Include" />
               <e p="UnityWebRequestException.cs" t="Include" />
             </e>

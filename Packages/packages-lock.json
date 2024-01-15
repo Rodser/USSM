@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": {
-      "version": "file:../Assets/Plugins/UniTask",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.burst": {
       "version": "1.8.11",
       "depth": 1,

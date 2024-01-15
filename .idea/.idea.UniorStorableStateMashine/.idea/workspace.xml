@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniTask/Runtime/UniTask.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Sources/Game.asmdef" />
@@ -35,11 +38,14 @@
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/IScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/BaseScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Log.cs" />
-      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/ISceneManageService.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/GameMenuScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/App/AppFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Factories/Scenes/GameMenuSceneFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Services/Scenes/SceneManageService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/ISceneManageService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/UniTask/Runtime/UniTask.cs" />
+      <option value="$PROJECT_DIR$/Cysharp/Threading/Tasks/UniTask.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/UniTask/Runtime/UniTask.asmdef" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2awfgCKjhztl5eSD84t7nUApRXe" />
@@ -84,7 +90,7 @@
       <updated>1705234680394</updated>
       <workItem from="1705234703178" duration="2753000" />
       <workItem from="1705247475901" duration="4200000" />
-      <workItem from="1705311923954" duration="7369000" />
+      <workItem from="1705311923954" duration="10809000" />
     </task>
     <servers />
   </component>
