@@ -15,8 +15,10 @@ namespace Game.Controllers.Scenes
 
         public override string Name { get; } = nameof(GameMenuScene);
 
-        public override void Enter()
+        public override async void Enter()
         {
+            await _sceneManageService.LoadSceneAsync(Name);
+            
             Log.Print(Name);
         }
     }

@@ -1,4 +1,3 @@
-using System;
 using Game.Controllers.Scenes;
 using Game.Infrastructure.Interfaces.Services.Scenes;
 using UnityEngine;

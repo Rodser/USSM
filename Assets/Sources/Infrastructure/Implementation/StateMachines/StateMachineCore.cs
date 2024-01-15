@@ -4,11 +4,14 @@ namespace Game.Infrastructure.Implementation.StateMachines
 {
     public class StateMachineCore : IStateMachine
     {
-        public object CurrentState { get; private set; }
+        private IState _currentState;
+        public object CurrentState => _currentState;
 
         public void ChangeState(IState state)
         {
-            CurrentState = state;
+            _currentState?.Exit();
+            _currentState = state;
+            _currentState?.Enter();
         }
     }
 }

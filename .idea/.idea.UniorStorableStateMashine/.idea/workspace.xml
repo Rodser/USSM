@@ -31,14 +31,11 @@
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Scenes/SceneStateMachineService.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/StateMaсhines/IStateMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMachines/UpdatableStateMachine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMachines/StateMachineCore.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Factories/Scenes/ISceneFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Services/Scenes/SceneStateMachineService.cs" />
-      <option value="$PROJECT_DIR$/Assets/Sources/App/App.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/Scenes/IScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/BaseScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Log.cs" />
-      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/GameMenuScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/App/AppFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Factories/Scenes/GameMenuSceneFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/Services/Scenes/SceneManageService.cs" />
@@ -46,6 +43,9 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/UniTask/Runtime/UniTask.cs" />
       <option value="$PROJECT_DIR$/Cysharp/Threading/Tasks/UniTask.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/UniTask/Runtime/UniTask.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Scenes/GameMenuScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/App/App.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMachines/StateMachineCore.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2awfgCKjhztl5eSD84t7nUApRXe" />
@@ -90,7 +90,7 @@
       <updated>1705234680394</updated>
       <workItem from="1705234703178" duration="2753000" />
       <workItem from="1705247475901" duration="4200000" />
-      <workItem from="1705311923954" duration="10809000" />
+      <workItem from="1705311923954" duration="12788000" />
     </task>
     <servers />
   </component>
