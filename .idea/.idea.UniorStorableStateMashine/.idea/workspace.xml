@@ -15,7 +15,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Sources/Game.asmdef" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Implementation/StateMashine.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/Services/IUpdatable.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Infrastructure/Interfaces/StateMashines/IStateMashine.cs" />
@@ -55,7 +54,18 @@
       <option value="$PROJECT_DIR$/Assets/Sources/Extentions/Vector2/Vector2ToVector2Data.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Domain/Airplane.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Airplanes/AirplanPresentation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Airplanes/AirplanPresentor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Airplanes/IPresentor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Interfaces/IPresentor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Implementations/PresentorBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Domain/Airplan/Airplane.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Controllers/Implementations/Airplanes/AirplanPresentor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Interfaces/IView.cs" />
       <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Interfaces/IAirplanView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Implementations/View.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Implementations/PresentableView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Interfaces/IPresentableView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sources/Presentation/Implementations/AirplaneView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2awfgCKjhztl5eSD84t7nUApRXe" />
@@ -100,7 +110,8 @@
       <updated>1705234680394</updated>
       <workItem from="1705234703178" duration="2753000" />
       <workItem from="1705247475901" duration="4200000" />
-      <workItem from="1705311923954" duration="16426000" />
+      <workItem from="1705311923954" duration="17161000" />
+      <workItem from="1705386519744" duration="5564000" />
     </task>
     <servers />
   </component>
